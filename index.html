@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shwetha | Full Stack Developer</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link rel="stylesheet" href="css/style.css"/>
+  <!-- AOS Animation CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+
+</head>
+<body class="dark-mode" data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="70">
+<!-- Navbar -->
+<nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Shwetha</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button id="darkToggle" class="btn btn-sm btn-outline-light ms-3">☀️</button>
+
+      </div>
+    </div>
+  </nav>
+  <!-- Home -->
+<!-- <section id="home" class="vh-100 d-flex align-items-center bg-light text-center" data-aos="fade-up">
+    <div class="container">
+      <h1 class="display-4 fw-bold">Hi, I'm <span class="text-primary">Shwetha</span></h1>
+      <p class="lead">Full Stack Developer | MERN & .NET | Passionate Coder</p>
+      <a href="#projects" class="btn btn-primary mt-3">View My Projects</a>
+    </div>
+  </section> -->
+
+  <!-- Home -->
+<section id="home" class="vh-100 d-flex align-items-center bg-light" data-aos="fade-up">
+  <div class="container">
+    <div class="row align-items-center">
+      
+      <!-- Text (Left) -->
+      <div class="col-md-6 text-center text-md-start">
+        <h1 class="display-4 fw-bold">Hi, I'm <span class="text-primary">Shwetha</span></h1>
+        <p class="lead">Full Stack Developer | MERN & .NET | Passionate Coder</p>
+        <a href="#projects" class="btn btn-primary mt-3">View My Projects</a>
+      </div>
+      
+      <!-- Image (Right) -->
+      <div class="col-md-6 text-center">
+        <img src="images/about.jpg" alt="Shwetha's Photo" class="img-fluid rounded-circle" width="400">
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- About -->
+<section id="about" class="py-5 bg-white" data-aos="fade-up">
+    <div class="container">
+      <h2 class="text-center mb-4">About Me</h2>
+      <div class="row align-items-center">
+        <div class="col-md-4 text-center">
+          <img src="images/about.jpg" class="img-fluid rounded-circle" alt="Shwetha's Photo" width="200" />
+        </div>
+        <div class="col-md-8">
+          <p>
+            I’m a passionate Full Stack Developer with hands-on experience in building scalable applications using
+            <strong>MERN stack</strong> and <strong>.NET technologies</strong>. I specialize in creating user-friendly web interfaces and secure backend APIs.
+            During my internships and projects, I’ve integrated payment gateways, implemented authentication, and contributed to
+            real-world systems in agile teams.
+          </p>
+          <p>
+            I'm driven to continuously learn and grow by contributing to innovative, impactful web solutions.
+          </p>
+          <a href="Shwetha_Resume.pdf" download class="btn btn-outline-dark mt-2">
+            <i class="fa fa-download me-2"></i>Download Resume
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- Skills -->
+<section id="skills" class="py-5 bg-light" data-aos="fade-up">
+    <div class="container">
+      <h2 class="text-center mb-4">Technical Skills</h2>
+      <div class="row text-center">
+        <div class="col-md-3 mb-3">
+          <i class="fab fa-html5 fa-3x text-danger"></i><p>HTML5</p>
+        </div>
+        <div class="col-md-3 mb-3">
+          <i class="fab fa-css3-alt fa-3x text-primary"></i><p>CSS3</p>
+        </div>
+        <div class="col-md-3 mb-3">
+          <i class="fab fa-js fa-3x text-warning"></i><p>JavaScript</p>
+        </div>
+        <div class="col-md-3 mb-3">
+          <i class="fab fa-react fa-3x text-info"></i><p>React.js</p>
+        </div>
+        <div class="col-md-3 mb-3">
+          <i class="fab fa-node fa-3x text-success"></i><p>Node.js</p>
+        </div>
+        <div class="col-md-3 mb-3">
+          <i class="fas fa-database fa-3x text-secondary"></i><p>MongoDB / SQL Server</p>
+        </div>
+        <div class="col-md-3 mb-3">
+          <i class="fas fa-plug fa-3x text-info"></i><p>APIs / JWT / Swagger</p>
+        </div>
+        <div class="col-md-3 mb-3">
+          <i class="fab fa-github fa-3x text-dark"></i><p>Git & GitHub</p>
+        </div>
+      </div>
+    </div>
+  </section>
+      
+
+  <!-- Projects -->
+<section id="projects" class="py-5 bg-white" data-aos="fade-up">
+    <div class="container">
+      <h2 class="text-center mb-4">Projects</h2>
+      <div class="row g-4">
+  
+        
+
+        <!-- Artisan Hub -->
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="images/artisanhub.png" class="card-img-top" alt="Artisan Hub">
+            <!-- <div class="card-body">
+              <h5 class="card-title">Artisan Hub</h5>
+              <p class="card-text">E-commerce platform using MERN stack with JWT Auth and Braintree Payment Gateway.</p>
+              <a href="https://github.com/Shwetha200/artisan-hub" target="_blank" class="btn btn-outline-primary">View on GitHub</a>
+            </div> -->
+            <div class="card-body">
+  <h5 class="card-title">Artisan Hub</h5>
+  <p class="card-text">
+    E-commerce platform using MERN stack with JWT Auth and Braintree Payment Gateway.
+  </p>
+  <p style="color: #007bff;"><strong>Modules</strong></p>
+  <p>- Product Browsing & Categories</p>
+  <p>- Secure Checkout (Braintree)</p>
+  <p>- JWT-based Authentication</p>
+  <p>- Order Tracking</p>
+  <p>- Review & Feedback</p>
+  <!-- <a href="https://github.com/Shwetha200/artisan-hub" target="_blank" class="btn btn-outline-primary mt-2">View on GitHub</a> -->
+</div>
+          </div>
+        </div>
+  
+        <!-- WMSOFT -->
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="images/WMSOFT.png" class="card-img-top" alt="WMSOFT">
+            <div class="card-body">
+              <h5 class="card-title">WMSOFT</h5>
+              <p class="card-text">Warehouse Management System built with .NET Core Web API and SQL Server.</p>
+              <p style="color: #007bff;"><strong>Modules</strong></p>
+              <p>- E-Procurement</p>
+              <p>- Import/Export Compliance</p>
+              <p>- Asset Management</p> 
+              <p>- Inventory Management</p>
+              <p>- Reports</p>
+            </div>
+          </div>
+        </div>
+  
+        <!-- EOSOFT -->
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="images/ts.png" class="card-img-top" alt="EOSOFT">
+            <div class="card-body">
+              <h5 class="card-title">EOSOFT</h5>
+              <p class="card-text">Export-Oriented Software using .NET Core, Web API, SQL with Swagger for API testing.</p>
+              <p style="color: #007bff;"><strong>Modules</strong></p>
+              <p>- Inbound</p>
+              <p>- Inventory Planning and Procurement</p>
+              <p>- Warehouse Operations</p> 
+              <p>- Outbound</p>
+              <p>- Reports</p>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+<section id="experience" class="py-5 bg-light" data-aos="fade-up">
+  <div class="container">
+    <h2 class="text-center mb-5">Work Experience</h2>
+    <div class="timeline">
+      
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h5>Infolog Solutions Pvt. Ltd – Trainee Programmer</h5>
+          <small class="text-muted">Jan 2025 – Feb 2025</small>
+          <p>.NET backend integration, bug fixes, QA validation in enterprise applications.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h5>Infolog Solutions Pvt. Ltd – .NET Developer Intern</h5>
+          <small class="text-muted">Oct 2024 – Dec 2024</small>
+          <p>ASP.NET MVC, Web API, Agile team collaboration, Swagger testing.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h5>Accelerlab Solutions – MERN Stack Intern</h5>
+          <small class="text-muted">May 2024 – July 2024</small>
+          <p>Built scalable web apps, JWT auth, Braintree integration, Postman API testing.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h5>Protriden Technologies – Web Developer Intern</h5>
+          <small class="text-muted">Nov 2023 – Dec 2023</small>
+          <p>E-commerce site using CodeIgniter-4 and Razorpay integration.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  
+
+  <!-- Education -->
+<section id="education" class="py-5 bg-white" data-aos="fade-up">
+  <div class="container">
+    <h2 class="text-center mb-5">Education</h2>
+    <div class="row gy-4">
+
+      <!-- MCA -->
+      <div class="col-md-6">
+        <div class="edu-card shadow-sm p-4 rounded border-start border-4 border-primary">
+          <h5 class="mb-1 fw-bold">MCA</h5>
+          <p class="mb-1">St. Joseph Engineering College, Mangalore</p>
+          <p class="mb-1"><strong>2022–2024</strong></p>
+          <p class="mb-0">9.07 CGPA</p>
+        </div>
+      </div>
+
+      <!-- BCOM -->
+      <div class="col-md-6">
+        <div class="edu-card shadow-sm p-4 rounded border-start border-4 border-success">
+          <h5 class="mb-1 fw-bold">BCOM (Computer Science)</h5>
+          <p class="mb-1">Sri Dhavala College, Moodbidri</p>
+          <p class="mb-1"><strong>2019–2022</strong></p>
+          <p class="mb-0">84.62%</p>
+        </div>
+      </div>
+
+      <!-- PUC -->
+      <div class="col-md-6">
+        <div class="edu-card shadow-sm p-4 rounded border-start border-4 border-warning">
+          <h5 class="mb-1 fw-bold">PUC (Commerce)</h5>
+          <p class="mb-1">Jain PU College, Moodbidri</p>
+          <p class="mb-1"><strong>2017–2019</strong></p>
+          <p class="mb-0">86.66%</p>
+        </div>
+      </div>
+
+      <!-- SSLC -->
+      <div class="col-md-6">
+        <div class="edu-card shadow-sm p-4 rounded border-start border-4 border-danger">
+          <h5 class="mb-1 fw-bold">SSLC</h5>
+          <p class="mb-1 ">Govt High School, Aliyoor</p>
+          <p class="mb-1"><strong>2017</strong></p>
+          <p class="mb-0">73.92%</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+  <!-- Contact -->
+<section id="contact" class="py-5 bg-light" data-aos="fade-up">
+    <div class="container text-center">
+      <h2 class="mb-4">Get in Touch</h2>
+      <p><i class="fas fa-envelope me-2"></i><a href="mailto:shwethakulal09@gmail.com">shwethakulal09@gmail.com</a></p>
+      <p><i class="fab fa-linkedin me-2"></i><a href="https://www.linkedin.com/in/shwethakulal97" target="_blank">LinkedIn Profile</a></p>
+      <p><i class="fab fa-github me-2"></i><a href="https://github.com/Shwetha200" target="_blank">GitHub Profile</a></p>
+    </div>
+  </section>
+  
+  
+  
+  <!-- Footer -->
+<footer class="bg-dark text-light text-center py-3">
+    <p class="mb-0">&copy; 2025 Shwetha. Built with ❤️ </p>
+  </footer>
+  
+  <!-- <div class="text-center mt-3">
+    <a href="Shwetha_Resume.pdf" download class="btn btn-outline-light btn-sm">
+      <i class="fa fa-download me-2"></i>Download Resume
+    </a>
+  </div> -->
+  <!-- AOS Animation JS -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<script>
+    const toggleBtn = document.getElementById('darkToggle');
+    toggleBtn.addEventListener('click', () => {
+      document.body.classList.toggle('dark-mode');
+      
+      // Change button icon based on current mode
+      if (document.body.classList.contains('dark-mode')) {
+        toggleBtn.innerHTML = '☀️'; // dark mode active
+      } else {
+        toggleBtn.innerHTML = '🌙'; // light mode active
+      }
+    });
+  </script>
+  
+  
+
+</body>
+</html>  
